@@ -1,3 +1,4 @@
+'use strict';
 let money = 90000,
     income = 'фриланс',
     addExpenses = 'интернет, ТАКСИ, коммуналка',
