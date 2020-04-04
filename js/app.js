@@ -1,8 +1,8 @@
 'use strict';
-let money = 90000,
+let money = +prompt('Ваш месячный доход?', 90000),
     income = 'фриланс',
-    addExpenses = 'интернет, ТАКСИ, коммуналка',
-    deposit = false,
+    addExpenses = prompt('Перечислите возможные расходы за рассчитываемый период через запятую','интернет, ТАКСИ, коммуналка'),
+    deposit = confirm('Есть ли у вас депозит в банке?'),
     mission = 1000000,
     period = 12,
     budgetDay = money / 30;
